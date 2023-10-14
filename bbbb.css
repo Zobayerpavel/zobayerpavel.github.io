@@ -1,0 +1,111 @@
+html{
+     scroll-behavior: smooth;
+}
+/* header */
+.header{
+     background: #3498db;
+}
+.header img{
+     width: 220px;
+}
+
+.header ul{
+     text-align: right;
+     margin-bottom: 0;
+}
+.header ul li{
+     display: inline-block;
+}
+.header ul li a{
+     display: block;
+     padding: 0 25px;
+     color: #ffff;
+     text-decoration: none;
+     line-height: 75px;
+     transition: .5s;
+     font-size: 20px;
+     border-right: 1px solid #fff;
+}
+.header ul li a:hover{
+     background: #2980b9;
+}
+
+/* banner */
+
+.banner{
+     background: url(./wallpaperflare.com_wallpaper.jpg);
+     padding: 250px 0;
+     background-attachment: fixed;
+     background-repeat:no-repeat ;
+     background-size: cover;
+}
+.banner h2{
+     background: rgba(0,0,0,.4);
+     display: inline-block;
+     color: #fff;
+     border-radius: 5px;
+     font-size: 50px;
+     font-family: bold;
+}
+
+/* about */
+
+.about{
+     background: #d4f2d2;
+}
+.service{
+     background: #e2ea9d;
+}
+/* service */
+.service span {
+     display: block;
+     height: 60px;
+     width: 60px;
+     background: #0f70e7;
+     margin: auto;
+     font-size: 35px;
+     line-height: 60px;
+     border-radius: 20px 0 20px 0;
+}
+.service h3{
+     margin: 20px 0 ;
+     font-size: 30px;
+}
+/* product */
+img{
+     max-width: 100%;
+}
+.product-right h2{
+     font-size: 20px;
+}
+.product-right ul{
+     list-style: none;
+     padding-left: 0;
+}
+.product-right ul li{
+     
+     padding:10px;
+     display: block;
+     background:#f7f7;
+     margin-bottom:10px;
+     border-radius: 5px;
+     font-size: 18px
+     
+}
+/* footer */
+.footer{
+     background: rgb(109, 109, 101);
+     width: auto;
+}
+.footer a{
+     padding: 20px ;
+     font-size: 15px;
+     color: #ffff;
+     margin-left: 15px;
+     font-size: 20px;
+}
+.footer p{
+     color: #ffff;
+     margin-bottom: 0;
+     
+}
