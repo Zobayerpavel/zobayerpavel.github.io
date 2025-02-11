@@ -1,200 +1,117 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>ZOBAYER</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD Zobayer Sarker (Pavel)</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- নেভিগেশন বার -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">MD Zobayer Sarker (Pavel)</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./bbbb.css"> 
+    <!-- হোম সেকশন -->
+    <section id="home" class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <img src="pavel.jpg" alt="MD Zobayer Sarker (Pavel)" class="profile-img mb-3">
+            <h1 class="display-4">MD Zobayer Sarker (Pavel)</h1>
+            <p class="lead">Support Engineer | Android Developer</p>
+        </div>
+    </section>
 
- </head>
- <!doctype html>
- <html lang="en">
-   <head>
-     <title>Title</title>
-     <!-- Required meta tags -->
-     <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
- 
-     <!-- Bootstrap CSS -->
-     
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- About Me সেকশন -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">About Me</h2>
+            <p>
+                I am MD Zobayer Sarker (Pavel), currently working as Support Engineer in Edotco (Bogra Branch). I have completed Diploma in Computer Science (Session 20-21) from Bhola Polytechnic Institute. I have expertise in Android App Development, Java, HTML, CSS, Bootstrap and other programming languages.
+            </p>
+            <p>
+                I have completed industrial training in bdtask company with android apps development. Through this training I gained hands-on experience with various platforms, frameworks and best practices of Android development.            </p>
+            <div class="text-center mt-4">
+                <a href="pavel_cv.pdf" download class="btn btn-primary">
+                    <i class="fas fa-download"></i> Download CV
+                </a>
+            </div>
+        </div>
+    </section>
 
- </head>
-   <body>
-      <div class="header" id="Home">
-           <div class="container">
-                <div class="row">
-                     <div class="col-md-4">
-                          <img src="./580b57fcd9996e24bc43c51f.png" alt="">
-                     </div>
-                     <div class="col-md-8">
-                          <ul>
-                               <li><a href="#Home">Home</a></li>
-                               <li><a href="#About">About</a></li>
-                               <li><a href="#Product">Product</a></li>
-                               <li><a href="#Service">Service</a></li>
-                               <li><a href="#Contract">Contract</a></li>
-                          </ul>
-                     </div>
+    <!-- Projects সেকশন -->
+    <section id="projects" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Projects</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Gaibandha Online Seva</h5>
+                            <p class="card-text">
+                                এই অ্যাপটি গাইবান্ধা জেলার সকল থানার জরুরি তথ্য ও সেবা প্রদান করে। ব্যবহারকারীরা এই অ্যাপের মাধ্যমে প্রয়োজনীয় তথ্য সহজেই পেতে পারেন।
+                            </p>
+                            <!-- স্ক্রলযোগ্য স্ক্রিনশট কন্টেইনার -->
+                            <div class="scroll-container">
+                                <div class="scroll-content">
+                                    <img src="aibandha_online_seva_1.jpg" alt="Home Page1" class="scroll-img">
+                                    <img src="aibandha_online_seva_2.jpg" alt="Home Page2" class="scroll-img">
+                                    <img src="aibandha_online_seva_3.jpg" alt="Contact" class="scroll-img">
+                                    <img src="aibandha_online_seva_4.jpg" alt="" class="scroll-img">
+                                    <img src="aibandha_online_seva_5.jpg" alt="" class="scroll-img">
+                                    <img src="aibandha_online_seva_6.jpg" alt="" class="scroll-img">
+                                    <!-- আরও স্ক্রিনশট যোগ করতে পারো -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-           </div>
-          </div>
-      <!-- ai khane benar -->
-      <div class="banner text-center">
-          <div class="container">
-               <div class="row">
-                    <div class="col-md-12"> 
-                        <div class="banner-pic ">
-                              <h2>Md Zobayer Sorker</h2>
-                        </div>
-                    </div>
-               </div>
-          </div>
-      </div>
-      <!-- about -->
-      <div class="about text-center pt-5 pb-5" id="About">
-          <div class="container">
-               <div class="row">
-                    <div class="col-md-12">
-                         <h2>About Us</h2>
-                         <p class="lead w-75 m-auto">I am a student of Diploma in Computer Engineering at 
-                         Bhola Polytechnic Institute. I have built up in my mind 
-                         since childhood that i will be a skilled engineer in the 
-                         future. My family's dream is also to be an engineer. So my 
-                         only goal is to work hard to become a computer engineer</p>
-                    </div>
-               </div>
-          </div>
-      </div>
+            </div>
+        </div>
+    </section>
 
-      <!-- service -->
-      <div class="service text-center mt-4 mb-4" id="Service">
-          <div class="container">
-               <div class="row">
-                    <div class="col-md-4">
-                         <div class="card">
-                              <span><i class="far fa-lightbulb"></i></span>
-                              <h2>Html</h2>
-                              <p>Lorem ipsum dolor sit amet.</p>
-                         </div>
-                    </div>
-                    <div class="col-md-4">
-                         <div class="card">
-                              <span><i class="far fa-lightbulb"></i></span>
-                              <h2>Css</h2>
-                              <p>Lorem ipsum dolor sit amet.</p>
-                         </div>
-                    </div>
-                    <div class="col-md-4">
-                         <div class="card">
-                              <span><i class="far fa-lightbulb"></i></span>
-                              <h2>Bootstrap</h2>
-                              <p>Lorem ipsum dolor sit amet.</p>
-                         </div>
-                    </div>
-               </div>
-          </div>
-      </div>
-      <!-- product -->
-      <div class="product pt-5 pb-5" id="Product">
-          <div class="container">
-               <div class="row">
-                    <div class="col-md-9">
-                         <div class="row product-itam">
-                              <div class="col-md-3">
-                                   <img src="./product image/doyal.jpg" alt="">
-                              </div>
-                              <div class="col-md-9 mb-4">
-                                   <p>
-                                        The Oriental magpie-robin is a small passerine bird that was formerly classed as a member of the thrush family Turdidae, but now considered an Old World flycatcher. They are distinctive black and white birds with a long tail that is held upright as they forage on the ground or perch conspicuously
-                                   </p>
-                              </div>
-                         </div>
-                         <div class="row product-itam mb-4">
-                              <div class="col-md-3">
-                                   <img src="./product image/moyna.jpeg" alt="">
-                              </div>
-                              <div class="col-md-9">
-                                   <p>
-                                        The bird myna is a type of parrot that is native to the Indian subcontinent. 
-                                        The bird myna is the smallest parrot species and is the only member of the genus Gymnopithys. The bird myna is a migratory
-                                        species, and it has a widespread distribution throughout the Indian subcontinent and Southeast Asia. the bird myna is a social
-                                        species
-                                   </p>
-                              </div>
-                         </div>
-                         <div class="row product-itam mb-4">
-                              <div class="col-md-3">
-                                   <img src="./product image/images.jpeg" alt="">
-                              </div>
-                              <div class="col-md-9">
-                                   <p>
-                                        The rose-ringed parakeet (Psittacula krameri), also known as the ringneck parrot (in aviculture) or the Kramer parrot, is a medium-sized parrot in the genus Psittacula, of the family Psittacidae. It has disjunct native ranges in Africa and the Indian Subcontinent, and is now introduced into many other parts of the world where feral populations have established themselves and are bred for the exotic pet trade.
-                                   </p>
-                              </div>
-                         </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="product-right">
-                         <h2>Notice......</h2>
-                         <ul>
-                              <li>Lorem ipsum dolor sit amet.</li>
-                              <li>Lorem ipsum dolor sit amet.</li>
-                              <li>Lorem ipsum dolor sit amet.</li>
-                              <li>Lorem ipsum dolor sit amet.</li>
-                              <li>Lorem ipsum dolor sit amet.</li>
-                              <li>Lorem ipsum dolor sit amet.</li>
-                         </ul>
-                        </div>
-                    </div>
-               </div>
-          </div>
-      </div>
+    <!-- Contact সেকশন -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact</h2>
+            <p class="text-center">
+                Email: <a href="mailto:pavelsorkar20@gmail.com">pavelsorkar20@gmail.com</a><br>
+                Phone: <a href="tel:+8801795731909">01795731909</a><br>
+                GitHub: <a href="https://github.com/Zobayerpavel">
+                    <i class="fab fa-github"></i> github.com/Zobayerpavel
+                </a><br>
+                Facebook: <a href="https://www.facebook.com/mdzobayersaskersakib.sakib">
+                    <i class="fab fa-facebook"></i> facebook.com/mdzobayersaskersakib.sakib
+                </a>
+            </p>
+        </div>
+    </section>
 
-      <!-- contract -->
-      <div class="contract" id="Contract">
-          <div class="container">
-               <div class="row">
-                    <div class="col-md-7">
-                         <div class="google-maph">
-                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7372.3881391872155!2d90.71001184526784!3d22.496900730582652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30ab2e5ff818ad41%3A0x5fc1ee2e14210e11!2sBurhanuddin!5e0!3m2!1sen!2sbd!4v1697276879601!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                         </div>
-                    </div>
-                    <div class="col-md-5">
-                         <div class="contract-from">
-                              <form action="#">
-                                   <input type="text" class="form-control mb-3" placeholder="Name">
-                                   <input type="email" class="form-control mb-3" placeholder="Email">
-                                   <input type="text" class="form-control mb-3" placeholder="Subject">
-                                   <textarea name=" " id="" cols="30 mb-3"class="form-control" rows="10"></textarea>
-                                   <input type="submit" value="send" class="btn btn-primary">
-                              </form>
-                         </div>
-                    </div>
-               </div>
-          </div>
-      </div>
+    <!-- ফুটার -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2023 MD Zobayer Sarker (Pavel). All rights reserved.</p>
+    </footer>
 
-      <!-- footer -->
-      <div class="footer text-white pt-2 pb-2">
-          <div class="container">
-               <div class="row">
-                    <div class="col-md-5">
-                        <p> © All right reserved by MD:Zobayer Sarker(pavel)</p>
-                    </div>
-                    <div class="col-md-7 text-right">
-                         <a href="#"><i class="fab fa-facebook"></i></a>
-                         <a href="#"><i class="fab fa-twitter"></i></a>
-                         <a href="#"><i class="fab fa-instagram"></i></a>
-                         <a href="#"><i class="fab fa-youtube"></i></a>
-                    </div>
-               </div>
-          </div>
-      </div>
-  </body>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
