@@ -1,36 +1,54 @@
-.calculator {
-	height:340px;
-	width: 280px;
-	background-color: #e8e8e8;
-	margin: 0 auto;
-	margin: 50px;
-	margin-top: 50px;
-	padding: 10px;
-	border: 1px solid #77;
+body {
+    font-family: Arial, sans-serif;
 }
 
-.main-bar {
-
-	margin-bottom: 20px;
-	text-align-last: right
+#home {
+    background-color: #007bff;
 }
 
-.btn{
-	font-size: 20px;
-	cursor: pointer;
-	width: 61px;
+#about, #projects, #contact {
+    padding: 60px 0;
 }
 
-.line{
-
-	margin-bottom: 10px;
-
+.card {
+    transition: transform 0.3s;
 }
-.last input {
-	width: 126px;
 
+.card:hover {
+    transform: scale(1.05);
 }
-#inp{
-	font-size: 23px;
-	font-weight: bold;
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+    object-fit: cover;
+}
+
+/* স্ক্রলযোগ্য কন্টেইনার স্টাইল */
+.scroll-container {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px 0;
+}
+
+.scroll-content {
+    display: inline-block;
+}
+
+.scroll-img {
+    width: 150px; /* স্ক্রিনশটের প্রস্থ */
+    height: auto;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.scroll-img:hover {
+    transform: scale(1.05);
 }
